@@ -1,7 +1,7 @@
 import { openDB } from 'idb';
  
 const DATABASE_NAME = 'storyapp';
-const DATABASE_VERSION = 1;
+const DATABASE_VERSION = 2;
 const OBJECT_STORE_NAME = 'saved-reports';
  
 const dbPromise = openDB(DATABASE_NAME, DATABASE_VERSION, {
